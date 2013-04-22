@@ -71,6 +71,10 @@ body {
 
 /* Content */
 
+#content {
+    padding: 25px 30px 20px 30px;
+}
+
 #footer {
     padding: 7px 7px 7px 7px;
     background-color: #ECECEC;
@@ -78,4 +82,57 @@ body {
     vertical-align: middle;
     min-height: 30px;
 
+}
+
+/* Movie Table CSS */
+
+table.movie_table {
+    color: #cccccc;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #333333;
+    width: 100%;
+}
+
+
+
+table.movie_table a {
+    text-decoration: none;
+    color: #00002D;
+}
+table.movie_table a:hover {
+    text-decoration: underline;
+    color: #000066;
+}
+
+table.movie_table th {
+    padding: 7px 7px 7px 7px;
+}
+
+table.movie_table td {
+    padding: 7px 7px 7px 7px;
+}
+
+.movie_line_odd {
+    color: #000000;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #999999;
+}
+.movie_line_even {
+    color: #000000;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.movie_line_odd_hover {
+    background-color: #62DFFF;
+    color: #000000;
+}
+
+.movie_line_even:hover {
+    background-color: #62DFF;
+    color: #000000;
 }
